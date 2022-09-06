@@ -1,10 +1,13 @@
-.DS_Store
-applet
-application.linux-arm64
-application.linux-armv6hf
-application.linux32
-application.linux64
-application.windows32
-application.windows64
-application.macosx
-out
+size (600, 800);
+
+//face
+fill (255, 219, 77);
+ellipse (300, 300, 300, 300);
+
+//eyes
+fill (38, 38, 38);
+ellipse(255, 265, 30, 55);
+ellipse (345, 265, 30, 55);
+
+//mouth
+arc(300, 340, 65, 90, 0, 90);
